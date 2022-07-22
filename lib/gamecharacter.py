@@ -12,3 +12,4 @@ class GameCharacter(GameObject):
         
     def interact(self, *args, **kwargs) -> bool:
         success = self._interaction(*args, **kwargs)
+        return success
