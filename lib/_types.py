@@ -1,3 +1,3 @@
-import pygame
-from typing import Union, TypeAlias
+from typing import TypeAlias, Union
 
+import pygame
